@@ -1,0 +1,21 @@
+{
+  "name": "theme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^22.5.0"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^6.35.0",
+    "@wordpress/element": "^5.14.0",
+    "bootstrap": "^5.3.0"
+  }
+}

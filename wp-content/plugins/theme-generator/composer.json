@@ -1,0 +1,15 @@
+{
+    "name": "willywes/wp-theme-generator",
+    "autoload": {
+        "psr-4": {
+            "Willywes\\WPThemeGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Willywes",
+            "email": "willywes@hotmail.cl"
+        }
+    ],
+    "require": {}
+}

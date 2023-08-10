@@ -1,0 +1,40 @@
+2023-07-22T02:43:26+00:00 CRITICAL Uncaught TypeError: Return value of Willywes\WPThemeGenerator\FileGenerator::arrayToStringArray() must be of the type string, null returned in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\src\FileGenerator.php:55
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\src\FileGenerator.php(15): Willywes\WPThemeGenerator\FileGenerator->arrayToStringArray(NULL)
+#1 D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php(84): Willywes\WPThemeGenerator\FileGenerator->generateBaseThemeStyle('D:\\xampp\\htdocs...', Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): ThemeGenerator->tg_create_theme('')
+#3 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 D:\xampp\htdocs\woocommerce\wp-admin\admin-ajax.php(188): do_action('wp_ajax_tg_crea...')
+#6 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\src\FileGenerator.php en la línea 55
+
+2023-07-22T03:47:22+00:00 CRITICAL Uncaught Error: Call to undefined function includeIfExists() in D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions.php:478
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-settings.php(591): include()
+#1 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions.php en la línea 478
+
+2023-07-22T04:32:48+00:00 CRITICAL syntax error, unexpected '}', expecting ';' en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions.php en la línea 54
+
+2023-07-22T04:32:56+00:00 CRITICAL syntax error, unexpected '}', expecting ';' en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions.php en la línea 54
+
+2023-07-22T05:12:16+00:00 CRITICAL syntax error, unexpected ']', expecting end of file en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions\styles.php en la línea 11
+
+2023-07-22T05:12:16+00:00 CRITICAL syntax error, unexpected ']', expecting end of file en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions\styles.php en la línea 11
+
+2023-07-22T05:12:16+00:00 CRITICAL syntax error, unexpected ']', expecting end of file en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions\styles.php en la línea 11
+
+2023-07-22T05:12:16+00:00 CRITICAL syntax error, unexpected ']', expecting end of file en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions\styles.php en la línea 11
+
+2023-07-22T05:12:17+00:00 CRITICAL syntax error, unexpected ']', expecting end of file en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions\styles.php en la línea 11
+
+2023-07-22T05:12:17+00:00 CRITICAL syntax error, unexpected ']', expecting end of file en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions\styles.php en la línea 11
+
+2023-07-22T05:12:17+00:00 CRITICAL syntax error, unexpected ']', expecting end of file en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions\styles.php en la línea 11
+
+2023-07-22T05:12:17+00:00 CRITICAL syntax error, unexpected ']', expecting end of file en D:\xampp\htdocs\woocommerce\wp-content\themes\medusa\functions\styles.php en la línea 11
+

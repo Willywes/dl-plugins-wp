@@ -1,0 +1,200 @@
+2023-07-21T02:56:41+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to ThemeGenerator::parse_json() must be an instance of mixed, null given, called in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php on line 66 and defined in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:84
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php(66): ThemeGenerator->parse_json(NULL)
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): ThemeGenerator->tg_create_theme('')
+#2 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\woocommerce\wp-admin\admin-ajax.php(188): do_action('wp_ajax_tg_crea...')
+#5 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 84
+
+2023-07-21T02:56:56+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to ThemeGenerator::parse_json() must be an instance of mixed, null given, called in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php on line 66 and defined in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:84
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php(66): ThemeGenerator->parse_json(NULL)
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): ThemeGenerator->tg_create_theme('')
+#2 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\xampp\htdocs\woocommerce\wp-admin\admin-ajax.php(188): do_action('wp_ajax_tg_crea...')
+#5 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 84
+
+2023-07-21T04:09:01+00:00 CRITICAL Uncaught Error: Class 'Willywes\ThemeGenerator\ThemeGenerator' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:09:06+00:00 CRITICAL Uncaught Error: Class 'Willywes\ThemeGenerator\ThemeGenerator' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin-ajax.php(22): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:09:07+00:00 CRITICAL Uncaught Error: Class 'Willywes\ThemeGenerator\ThemeGenerator' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:09:17+00:00 CRITICAL Uncaught Error: Class 'Willywes\ThemeGenerator\ThemeGenerator' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:09:38+00:00 CRITICAL Uncaught Error: Class 'Willywes\ThemeGenerator\ThemeGenerator' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:09:43+00:00 CRITICAL Uncaught Error: Class 'Willywes\ThemeGenerator' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:09:53+00:00 CRITICAL Uncaught Error: Class 'Willywes\ThemeGenerator\ThemeGenerator' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:09:55+00:00 CRITICAL Uncaught Error: Class 'Willywes\ThemeGenerator\ThemeGenerator' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:20:58+00:00 CRITICAL Uncaught Error: Class 'Willywes\WPThemeGenerator\Tools' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:21:01+00:00 CRITICAL Uncaught Error: Class 'Willywes\WPThemeGenerator\Tools' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:21:27+00:00 CRITICAL Uncaught Error: Class 'Willywes\WPThemeGenerator\Tools' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:21:33+00:00 CRITICAL Uncaught Error: Class 'Willywes\WPThemeGenerator\Tools' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:21:35+00:00 CRITICAL Uncaught Error: Class 'Willywes\WPThemeGenerator\Tools' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:22:40+00:00 CRITICAL Uncaught Error: Class 'Willywes\WPThemeGenerator\Tools' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+
+2023-07-21T04:22:42+00:00 CRITICAL Uncaught Error: Class 'Willywes\WPThemeGenerator\Tools' not found in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:51
+Stack trace:
+#0 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(308): tg_init_class('')
+#1 D:\xampp\htdocs\woocommerce\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\woocommerce\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\woocommerce\wp-settings.php(486): do_action('plugins_loaded')
+#4 D:\xampp\htdocs\woocommerce\wp-config.php(96): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\woocommerce\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\woocommerce\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+  thrown en D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php en la línea 51
+

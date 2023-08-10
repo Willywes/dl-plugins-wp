@@ -1,0 +1,28 @@
+2023-08-10T04:48:54+00:00 CRITICAL Cannot redeclare tg_menu() (previously declared in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:43) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\sendgrid-forms.php en la línea 35
+
+2023-08-10T04:48:56+00:00 CRITICAL Cannot redeclare tg_menu() (previously declared in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:43) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\sendgrid-forms.php en la línea 35
+
+2023-08-10T04:48:56+00:00 CRITICAL Cannot redeclare tg_menu() (previously declared in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:43) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\sendgrid-forms.php en la línea 35
+
+2023-08-10T04:49:03+00:00 CRITICAL Cannot redeclare tg_menu() (previously declared in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:43) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\sendgrid-forms.php en la línea 35
+
+2023-08-10T04:49:04+00:00 CRITICAL Cannot redeclare tg_menu() (previously declared in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:43) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\sendgrid-forms.php en la línea 35
+
+2023-08-10T04:49:04+00:00 CRITICAL Cannot redeclare tg_menu() (previously declared in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:43) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\sendgrid-forms.php en la línea 35
+
+2023-08-10T04:50:11+00:00 CRITICAL Cannot redeclare tg_admin() (previously declared in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:49) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\sendgrid-forms.php en la línea 41
+
+2023-08-10T04:50:13+00:00 CRITICAL Cannot redeclare tg_admin() (previously declared in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:49) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\sendgrid-forms.php en la línea 41
+
+2023-08-10T04:50:13+00:00 CRITICAL Cannot redeclare tg_admin() (previously declared in D:\xampp\htdocs\woocommerce\wp-content\plugins\theme-generator\theme-generator.php:49) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\sendgrid-forms.php en la línea 41
+
+2023-08-10T04:51:08+00:00 CRITICAL Cannot declare class ComposerAutoloaderInit264c6a3f732ce2e89caf8d0c01bdd520, because the name is already in use en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\vendor\composer\autoload_real.php en la línea 5
+
+2023-08-10T04:51:09+00:00 CRITICAL Cannot declare class ComposerAutoloaderInit264c6a3f732ce2e89caf8d0c01bdd520, because the name is already in use en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\vendor\composer\autoload_real.php en la línea 5
+
+2023-08-10T04:51:09+00:00 CRITICAL Cannot declare class ComposerAutoloaderInit264c6a3f732ce2e89caf8d0c01bdd520, because the name is already in use en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\vendor\composer\autoload_real.php en la línea 5
+
+2023-08-10T04:53:34+00:00 CRITICAL syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\src\SendgridForm.php en la línea 112
+
+2023-08-10T04:54:09+00:00 CRITICAL syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST) en D:\xampp\htdocs\woocommerce\wp-content\plugins\sendgrid-forms\src\SendgridForm.php en la línea 112
+

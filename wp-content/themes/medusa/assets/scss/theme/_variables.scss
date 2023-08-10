@@ -1,0 +1,29 @@
+// theme variables
+$mobile: "(max-width: 768px)";
+$tablet: "(max-width: 992px)";
+$desktop: "(max-width: 1280px)";
+$desktop-large: "(min-width: 1201px)";
+
+$sm: "(min-width: 576px)";
+$md: "(min-width: 768px)";
+$lg: "(min-width: 992px)";
+$xl: "(min-width: 1200px)";
+$xxl: "(min-width: 1400px)";
+
+//Ejemplo de como utilizar media queries:
+@media #{$tablet} {
+
+}
+
+$primary: #04A6DA;
+$secondary: #B702D1;
+$dark: #0F0B21;
+$white: #FFFFFF;
+$title-color: #110C2A;
+$text-color: #0F0B21;
+
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+$primary-color: #04A6DA;
+$secondary-color: #B702D1;
+

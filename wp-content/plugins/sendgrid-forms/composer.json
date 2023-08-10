@@ -1,0 +1,15 @@
+{
+    "name": "willywes/sendgrid-forms",
+    "autoload": {
+        "psr-4": {
+            "Willywes\\SendgridForms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Willywes",
+            "email": "willywes@hotmail.cl"
+        }
+    ],
+    "require": {}
+}

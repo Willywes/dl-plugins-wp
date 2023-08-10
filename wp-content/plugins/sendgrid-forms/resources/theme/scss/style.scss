@@ -1,0 +1,22 @@
+/*!
+Theme Name: Medusa
+Theme URI: https://devlabs.cl/
+Author: medusa
+Author URI: https://devlabs.cl
+Description: Theme for Medusa
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: medusa
+Tags: desarrollo web, ecommerce, apps
+*/
+
+@import "theme";
+@import "custom";
+@import "bootstrap-override";
+
+body{
+  color: white;
+}
